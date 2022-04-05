@@ -1,0 +1,1114 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    
+}
+.head-1{
+    position:relative;
+    top: 1%;
+    z-index: 1;
+    height: 40px;
+    background-color: #002147;
+}
+.head-1 a{
+    text-decoration: none;
+}
+.head-11{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 50px;
+    top: 4px;
+}
+.fas{
+    color: #FDC40B;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+li a{
+    text-decoration: none;
+}
+.head-11 a{
+    color: white;
+}
+.head-11 b{
+    color: white;
+    font-size: larger;
+    padding: 10px;
+}
+.head-12{
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    right: 100px;
+    background-color: #FDC40B;
+    align-items: center;
+    
+}
+.head-12 button{
+    padding: 10px;
+    padding-left: 25px;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.head-2{
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+.head-21{
+    position: relative;
+    height: 100%;
+    width: 20%;
+}
+.head-22{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 20%;
+    top: 0;
+}
+.head-211{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    background: #002147;
+    top: 25px;
+    left: 40px;
+    clip-path: circle();
+}
+.head-211 .fas{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+.head-21 p{
+    position: absolute;
+    top:18px ;
+    left: 80px;
+    font-size:larger;
+}
+.head-22 ul li{
+    display: inline;
+    padding: 10px;
+}
+.head-22 ul li a{
+    color:#002147 ;
+}
+.head-22 ul li .fas{
+    color:#002147 ;
+}
+.head-22 ul{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+.head-22 ul .fa-bars{
+    visibility:hidden;
+}
+
+.head-3{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    
+}
+.carousel-item {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.carousel-item .head-311{
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    top: 150px;
+    color: #002147;;
+    
+    
+    left: 120px;
+     
+}
+.head-311 button{
+    background-color: #FDC40B;
+    border: none;
+    margin-top: 15px;
+    width: 170px;
+    height: 40px;
+}
+.head-4{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    opacity: 0.5;
+    background-image: url(img/blog_img.jpg);
+    background-repeat: round;
+    color: white;
+    
+}
+#head-4img{
+    width: 100%;
+    height: 150px;
+}
+.head-41{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    left: 5%;
+    background: rgba(8, 37, 69, 0.9);
+    top: 10%;
+}
+.head-42{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    left: 35%;
+    top: 10%;
+    
+    background: rgba(8, 37, 69, 0.9);
+}
+.head-43{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    right: 5%;
+    top: 10%;
+    background: rgba(8, 37, 69, 0.9);
+}
+.head-4w{
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    left: 15px;
+    top: 39px;
+    opacity: 1;
+}
+.head-4i{
+    position: absolute;
+    right:120px;
+    top: 39px;
+}
+.head-4l{
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+    right: 0;
+}
+.head-5{
+    position: relative;
+    width: 100%;
+    height: 400px;  
+    background-color: #F6F6F6;
+}
+.head-51{
+    position: absolute;
+    color: black;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    padding: 40px;
+}
+.head-52{
+    position: absolute;
+    color: black;
+    height: 100%;
+    width: 50%;
+    right: 0;
+}
+.head-51 h3{
+    color:#002147;
+    padding-bottom: 15px;
+}
+.head-51 h6{
+    padding-bottom: 15px;
+}
+#head-5-btn{
+    width: 150px;
+    height: 30px;
+    background-color: #FDC40B;
+    border: none;
+    font-weight:600;
+    transition: 0.2s;
+
+}
+#head-5-btn :hover{
+    width: 70px;
+    height: 40px;
+    font-size: larger;
+}
+
+.head-52 img{
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    right: 0;
+}
+#head-6{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #F5F5F5;
+}
+#head-61{
+    position: absolute;
+    width: 1000px;
+    height: 20px;
+    left: 15px;
+    top: 5px;
+}
+.head-62{
+    position: absolute;
+    width: 90%;
+    height: 300px;
+    left: 5%;
+    bottom: 0;
+}
+.head-621{
+    position:absolute;
+    height: 100%;
+    width: 20%;
+    display: inline;
+    left: 4%;
+    border: 0.01px solid black;
+    box-shadow: black;
+    background-color: white;
+
+}
+.head-622{
+    position:absolute;
+    height: 100%;
+    width: 20%;
+    display: inline;
+    left: 28%;
+    border: 0.01px solid black;
+    background-color: white;
+    
+}
+.head-623{
+    position:absolute;
+    height: 100%;
+    width: 20%;
+    left: 52%;
+    display: inline;
+    border: 0.01px solid black;
+    background-color: white;
+    
+}
+.head-624{
+    position:absolute;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    left:76%;
+    border: 0.01px solid black;
+}
+.head-62img{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+
+}
+.head-62txt{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 40%;
+}
+.head-62line{
+    position: absolute;
+width: 100%;
+height: 0.3%;
+top: 80%;
+opacity: 0.5;
+background-color: black;
+}
+.head-62foot{
+    position: absolute;
+    height: 19.7%;
+    width: 100%;
+    top: 81% ;
+}
+
+.head-62 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.head-62foot img{
+    width: 40px;
+    height: 40px;
+    clip-path: circle();
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.head-6pay{
+    position: absolute;
+    height: 25px;
+    width: 60px;
+    color: white;
+    background-color: #FDC40B;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+}
+.head-6pay a{
+    text-decoration: none;
+    color: white;
+
+}
+.head-6pay a:hover{
+    color: #002147;
+}
+.head-7{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+#head-7img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.head-71{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #002147;
+    opacity: 0.8;
+}
+.head-711{
+    position: absolute;
+    height:200px ;
+    width: 40%;
+    top: 50px;
+    left: 30%;
+    color: #F5F5F5;
+    padding: 20px;
+
+}
+.head-622foot{
+    position: absolute;
+    color: #FDC40B;
+    left: 51px;
+    top: 13px;
+}
+.head-623foot{
+    position: absolute;
+    right: 2px;
+    top: 15px;
+    display: inline;
+    color: gray;
+}
+.head-623foot .fas{
+    color: gray;
+}
+.head-8{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #F6F6F6;
+}
+
+.head-81{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+}
+.head-82{
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom:0%;
+}
+.head-821{
+    position: absolute;
+    height: 250px;
+    width:1213px;
+    left: 60px;
+    bottom:0%;
+}
+.head-8card{
+    position: relative;
+    height: 100%;
+    width: 24%;
+    display: inline-block;
+    background-color: #F6F6F6;
+    left: 20px;
+    
+}
+.head-8img{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+
+}
+.head-8txt{
+    position: absolute;
+    height:18% ;
+    width: 100%;
+    top: 80%;
+    color: black;
+}
+.head-8line{
+    position: absolute;
+    height: 1%;
+    width: 20%;
+    bottom: 0;
+    background-color: #FDC40B;
+}
+.head-8img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.head-9{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+.head-91{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+}
+.head-92{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    background-color: #F5F5F5
+}
+.head-911{
+    position: absolute;
+    height: 80%;
+    width: 85%;
+    background-color: white;
+    bottom: 0;
+    left: 10%;
+}
+.head-911-box{
+    position: relative;
+    width: 100%;
+    height: 33.33%;
+}
+.head-911-box-img{
+    position: absolute;
+    width: 30%;
+    height: 99%;
+    left: 0;
+    top: 0;
+}
+.head-921{
+    position: absolute;
+    height: 80%;
+    width: 85%;
+    background-color: #F5F5F5;
+    bottom: 0;
+    right: 10%;
+}
+.box-image{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+}
+.box-image img{
+    width: 100%;
+    height: 100%;
+}
+.box-line{
+    position: absolute;
+    height: 0.1%;
+    width: 88%;
+    background-color: gray;
+    bottom: 0;
+    left: 6%;
+}
+.head-911-box-txt{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    right: 0;
+    top: 0;
+}
+.head-921-box{
+    position: absolute;
+    width: 100%;
+    height: 47%;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+.head-922-box{
+    position: absolute;
+    width: 100%;
+    height: 47%;
+    top: 53%;
+    background-color: white;
+    left: 0;
+}
+.head-921-box-date{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.date1{
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    top: 10%;
+    left: 10%;
+    background-color: #FDC40B;
+    color: #002147;
+    text-align: center;
+}
+.date2{
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    bottom: 30%;
+    background-color: #002147;
+    color: white;
+    text-align: center;
+}
+.head-921-box-text{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+}
+
+.dot{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #002147;
+    clip-path: circle();
+
+}
+.head-a1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.head-a11{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #002147;
+    opacity: 0.9;
+    top: 0;
+}
+.head-a111{
+    position: relative;
+    height: 100%;
+    width: 24.7%;
+    display: inline-block;
+    
+    color: #F5F5F5;
+}
+.head-a111 h1{
+    position: absolute;
+    left:35px;
+    top: 33%;
+}
+.head-a111 P{
+    position: absolute;
+    top: 35%;
+    font-size: large;
+    left:100px;
+}
+.head-a112{
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #FDC40B;
+    left: 35px;
+    top: 58%;
+}
+.head-a2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #F5F5F5;
+  }
+  .head-a21{
+      position: absolute;
+      width: 42%;
+      height: 80%;
+      left: 6%;
+      bottom: 0;
+  }
+  .head-a22{
+    position: absolute;
+    width: 42%;
+    height: 80%;
+    right: 6%;
+    bottom: 0;
+}
+.head-a211{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background-color:#F5F5F5;
+}
+.head-a2 img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 10px;
+    top: 10px;
+    clip-path: circle();
+}
+.head-a2-img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    clip-path: circle();
+    background-color: white;
+    left: 450px;
+    top: -30%;
+}
+#head-3-btn{
+    transition: .3s;
+}
+.head-a2-txt{
+    position: absolute;
+    width: 80%;
+    padding: 15px;
+    font-size: smaller;
+}
+.head-a2-name{
+    position: absolute;
+    top: 50px;
+}
+.head-a3{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #FDC40B;
+}
+.head-a31{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    background-color: white;
+}
+.head-a311{
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 0;
+}
+.head-a312{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    right: 0;
+    background-color: #002147;
+    color: white;
+}
+.head-a311 img{
+    height: 100%;
+    width: 100%;
+}
+.head-3a-btn{
+    position: absolute;
+    background-color: #FDC40B;
+    border: none;
+    width: 120px;
+    height: 40px;
+    left: 75px;
+    top: 120px;
+    transition: 0.4s;
+}
+.head-a4{
+    position: relative;
+    height: 400px;
+    width: 100%;
+
+}
+.head-a41{
+    position: absolute;
+    height: 100%;
+    width: 62%;
+    top: 0;
+    left: 5%;
+}
+.head-a42{
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    top: 0;
+    right: 5%;
+}
+.head-a4-line{
+    position: absolute;
+    height: 1%;
+    width: 8%;
+    background-color: #FDC40B;
+    top: 100px;
+    left: 0%;
+}
+.head-a411{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    bottom: 0;
+    
+
+}
+.head-a4-frm1{
+display: inline-block;
+height: 40px;
+width: 40%;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+.head-a411 .head-a4-frm1{
+    padding: 10px;
+}
+.head-a4-frm2{
+    margin-top: 10px;
+    height: 90px;
+    width: 83%;
+}
+#head-a4-btn{
+    position: absolute;
+    border: none;
+    background-color: #002147;
+    color: white;
+    width: 150px;
+    height: 40px;
+    bottom: 10%;
+    left: 0;
+
+}
+.head-a421{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    bottom: 0;
+}
+.head-a42-box{
+    display: inline-block;
+    margin-top: 10px;
+    border: 0.1px solid black;
+    height: 60px;
+    width: 100%;
+}
+.head-a42-box .fas{
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
+.head-a42-box a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    left: 40px;
+    top: 5px;
+}
+#head-a5{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #002147;
+    color: #F6F6F6;
+}
+.head-a51{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0;
+}
+.head-a52{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 25%;
+}
+.head-a53{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 50%;
+}
+.head-a54{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 75%;
+}
+
+.head-a511{
+    position: absolute;
+    width: 80%;
+    height: 15%;
+    top: 10%;
+    left: 15%;
+}
+.a511-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #FDC40B;
+    color: #002147;
+    top: 10%;
+    left: 0%;
+    align-items: center;
+    clip-path: circle();
+}
+.a511-icon .fas{
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    color: #002147;
+}
+.head-a512{
+    position: absolute;
+    height: 40%;
+    left: 15%;
+    width: 80%;
+    top: 30%;
+    font-size: smaller;
+}
+.head-a513{
+    position: absolute;
+    width: 80%;
+    left: 15%;
+    height: 15%;
+    top: 70%;
+}
+.a513-icon{
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 4px;
+    border: .5px solid white;
+    color: white;
+}
+.a513-icon i{
+    position: absolute;
+    left: 5px;
+    top: 4px;
+}
+.a513-icon a{
+    text-decoration: none;
+    color: white;
+}
+.head-a521{
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    height: 40%;
+    margin-left: 5%;
+    top: 30%;
+    font-size: small;
+
+
+
+}
+.head-a51 a:hover{
+    color: #FDC40B;
+
+}
+.head-a521 i{
+    color: #FDC40B;
+    margin-bottom: 20px;
+}
+#head-a5 ul{
+    list-style: none;
+}
+.head-a521 a{
+    color: white;
+}
+.head-a521 a:hover{
+    color: #FDC40B;
+}
+.head-a531{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    left: 5%;
+    top: 30%;
+}
+.head-a531 a{
+    color: white;
+}
+.head-a531 a:hover{
+    color: #FDC40B;
+}
+#head-a5 i{
+    margin-right: 10px;
+}
+.head-a531 li{
+    margin-bottom: 15px;
+}
+.head-a541{
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    top: 30%;
+
+}
+.a541-img{
+    position: relative;
+    width: 30%;
+    height: 48%;
+    display: inline-block;
+}
+.a541-img img{
+    height: 100%;
+    width: 100%;
+}
+.head-a6{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color:#19152c;
+}
+.head-a61{
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    left: 0;
+    top: 30%;
+    margin-left: 40px;
+    color: white;
+    
+}
+.head-a6 .fas{
+    color: white;
+}
+.head-a62{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    top: 30%;
+    right: 0;
+
+}
+.fab{
+    color: white;
+    padding-right: 5px;
+}
+#scroll{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+#scroll a :hover{
+    color: #FDC40B;
+}
+
+@media (max-width:900px) {
+    .head-8{
+        position: relative;
+        background-color: #F6F6F6;
+        overflow: hidden;
+    }
+    
+    .head-81{
+        position: absolute;
+        height: 50px;
+        top: 0;
+    }
+    .head-82{
+        position: absolute;
+        top: 10%;
+    }
+    .head-821{
+        position:relative;
+        left: 20px;
+        
+    }
+    .head-8card{
+        position: absolute;
+        height: 150px;
+        width:250 px;
+        display: list-item;
+        background-color: #F6F6F6;
+        left: 20px;
+    }
+    .c1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-right:150px;
+    }
+    .c2{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 5%;
+    }
+    .c4{
+        position: absolute;
+        bottom:0%;
+        left: 50%;
+        margin: 5%;
+    }
+    .c3{
+        position: absolute;
+        bottom: 0%;
+        margin: 5%;
+        left: 0;
+    }
+    .head-8img{
+        position: absolute;
+        height: 80%;
+        width: 100%;
+    
+    }
+    .head-8txt{
+        position: absolute;
+        height:18% ;
+        width: 100%;
+        top: 80%;
+        color: black;
+    }
+    .head-8line{
+        position: absolute;
+        height: 1%;
+        width: 20%;
+        bottom: 0;
+        background-color: #FDC40B;
+    }
+    
+}
+@media (max-width:900px) {
+    .head-22 ul{
+        visibility: hidden;
+    }
+    .head-22 ul .fa-bars{
+        visibility:visible;
+    }
+    
+}

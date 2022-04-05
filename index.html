@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" onsubmit="return validate()" class="form" action="./page/index.html">
+        <h2>Login </h2>
+       
+        <div class="form-control">
+          <label for="email">User name</label>
+          <input type="text" id="uname" placeholder=" Enter user Name" />
+          <label id="lbluser" style="color: red; visibility: hidden;">Invalid</label>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <label id="lblpass" style="color: red; visibility: hidden;">Invalid </label>
+        </div>
+       
+
+        <button type="submit" style="float:left"  >Login</button>
+        <button type="button" style="float:right" onclick="location.href='/frm.html';" value="new page">Register</button>
+
+        
+   
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
